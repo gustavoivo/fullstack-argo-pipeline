@@ -1,0 +1,9 @@
+application:
+  image: gustavoivo/go-todo:9d7f8da
+  imagePullPolicy: Always
+  port: 3000
+  replicas: 1
+  language: go
+  applicationRepo: https://github.com/gustavoivo/go-todo.git
+  yamlRepo: github.com/gustavoivo/fullstack-argo-pipeline.git
+  containerRepository: gustavoivo/go-todo
